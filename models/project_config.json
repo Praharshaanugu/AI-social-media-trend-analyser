@@ -1,0 +1,28 @@
+{
+    "trend_thresholds": {
+        "rising": 0.2,
+        "falling": -0.2
+    },
+    "current_heat_weights": {
+        "growth": 0.7,
+        "volume": 0.3
+    },
+    "forecast_strength_weights": {
+        "direction": 0.5,
+        "prediction_probability": 0.3,
+        "prediction_margin": 0.2
+    },
+    "trend_intelligence_weights": {
+        "current_heat": 0.45,
+        "forecast_strength": 0.55
+    },
+    "virality_weights": {
+        "average_score": 0.4,
+        "median_score": 0.35,
+        "maximum_score": 0.25
+    },
+    "final_score_weights": {
+        "trend_intelligence": 0.8,
+        "virality": 0.2
+    }
+}
